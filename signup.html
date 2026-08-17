@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signup | DocReminder</title>
+
+  <!-- Google Font: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #F1E7E2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .signup-container {
+      background: #FFFFFF;
+      padding: 30px 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px #0000;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .signup-container h2 {
+      text-align: center;
+      margin-bottom: 24px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .signup-container input {
+      width: 100%;
+      padding: 12px 14px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+
+    .signup-container button {
+      width: 100%;
+      padding: 12px;
+      background-color: #6B5B56 ;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .signup-container button:hover {
+      background-color: #6B5B56;
+    }
+
+    .signup-container p {
+      text-align: center;
+      margin-top: 16px;
+      font-size: 14px;
+    }
+
+    .signup-container p a {
+      color: #6B5B56; ;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .signup-container button a {
+      color: white; 
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="signup-container">
+    <h2>Create Account</h2>
+    <form action="signup" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <button type="submit"><a href="index.html" style="text-decoration:none;">Sign Up</a></button>
+    </form>
+    <p>Already have an account? <a href="login.html">Login here</a></p>
+  </div>
+
+</body>
+</html>

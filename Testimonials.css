@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Segoe UI', sans-serif; */
+}
+@font-face {
+  font-family: 'EN';
+  src: url('./gabriola/gabriola\ Font\ Download.ttf');
+}
+
+body {
+  background:  #F1E7E2;
+  color: #222;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #E5D7C3;
+  box-shadow: 0 2px 5px black;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6F5B56;
+}
+
+.logo span {
+  color: #A4917D;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+  
+.login-btn {
+  background: white;
+  color: #A4917D;
+  border: 2px solid #A4917D;
+}
+
+.get-started {
+  background-color: #6F5B56;
+  color: white;
+  border: none;
+  border-radius: 0;
+}
+
+.testimonials-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+  
+.testimonials-section h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+  
+.testimonials-section p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+  
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+  
+.testimonial-card {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px black;
+}
+  
+.stars {
+  font-size: 20px;
+  color: #fbbf24;
+  margin-bottom: 15px;
+}
+  
+.testimonial-text {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+  
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+  
+.user-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+  
+.user-info h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #111;
+}
+  
+.user-info p {
+  font-size: 14px;
+  color: #777;
+}
+   

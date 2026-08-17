@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Segoe UI', sans-serif; */
+}
+@font-face {
+  font-family: 'EN';
+  src: url('./gabriola/gabriola\ Font\ Download.ttf');
+}
+
+body {
+  background:  #F1E7E2;
+  color: #222;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #E5D7C3;
+  box-shadow: 0 2px 5px black;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6F5B56;
+}
+
+.logo span {
+  color: #A4917D;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+  
+.login-btn {
+  background: white;
+  color: #A4917D;
+  border: 2px solid #A4917D;
+}
+
+.get-started {
+  background-color: #6F5B56;
+  color: white;
+  border: none;
+  border-radius: 0;
+}
+  
+.features-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+  
+.features-section h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+  
+.features-section p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+  
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+  
+.feature-card {
+  background: white;
+  padding: 40px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px black;
+}
+  
+.icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #6F5B56;
+}
+  
+.feature-card h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+  
+.feature-card p {
+  color: #666;
+  font-size: 16px;
+}
+
+
+

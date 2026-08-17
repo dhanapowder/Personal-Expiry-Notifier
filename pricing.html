@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExpiryNotifier</title>
+    <link rel="stylesheet" href="Pricing.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" style="text-decoration:none;"><div class="logo"> <span style="color: #6F5B56;">Expiry</span><span>Notifier</span></div></a>
+        <nav>
+          <ul>
+           <li><a href="Dashboard.html">Features</a></li>
+           <li><a href="How it works.html">How it works</a></li>
+           <li><a href="Testimonials.html">Testimonials</a></li>            
+           <li><a href="Pricing.html">Pricing</a></li>
+          </ul>
+        </nav>
+        <div class="auth-buttons">
+         <!--<button class="login">Log in</button>-->
+         <button class="get-started">Start for Free Trial</button>
+        </div>
+    </header>
+    <main>
+        <section class="zero">
+            <h1>Start Managing Your Document Expiry Dates Today</h1>
+            <p class="small-text">Download Expiry Notifier now and take the first step towards staying organized and never missing important renewal dates.</p>
+            <div class="download">
+                <button onclick="downloadIOS()">Download for iOS</button>
+                <button onclick="downloadAndroid()">Download for Android</button>
+            </div>
+            <p class="small-text">Available on Windows 10/11 and Android devices. Free to download with premium reminder features.</p>
+        </section>
+
+        <section class="pricing-section">
+        <div class="pricing-card">
+            <h3>Free</h3>
+            <h1>$0</h1>
+            <p>Perfect for getting started</p>
+            <ul>
+                <li>✔️ Add and track basic documents</li>
+                <li>✔️ Expiry date reminders</li>
+                <li>✔️ Basic notifications</li>
+                <li>✔️ 5 document tracking per day</li>
+            </ul>
+            <button class="outline-btn" onclick="choosePlan('Free')">Get Started</button>
+        </div>
+
+        <div class="pricing-card popular">
+            <div class="popular-badge">POPULAR</div>
+            <h3>Premium</h3>
+            <h1>$4.99</h1>
+            <p>Monthly, billed annually</p>
+            <ul>
+                <li>✔️ Unlimited document tracking</li>
+                <li>✔️ Multiple reminder alerts (Email + SMS)</li>
+                <li>✔️ Priority notifications</li>
+                <li>✔️ Cloud backup & sync</li>
+                <li>✔️ No advertisements</li>
+            </ul>
+            <button class="filled-btn" onclick="choosePlan('Premium')">Choose Premium</button>
+        </div>
+
+        <div class="pricing-card">
+            <h3>Pro</h3>
+            <h1>$9.99</h1>
+            <p>Monthly, billed annually</p>
+            <ul>
+                <li>✔️ All Premium features</li>
+                <li>✔️ Family / Multiple user accounts</li>
+                <li>✔️ Advanced analytics & reports</li>
+                <li>✔️ Document upload & storage</li>
+                <li>✔️ API access</li>
+            </ul>
+            <button class="outline-btn" onclick="choosePlan('Pro')">Choose Pro</button>
+        </div>
+    </section>
+    </main>
+    
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>ExpiryNotifier</h3>
+        <p>Making document tracking simpler, smarter, and more reliable for everyone.<br><br>
+          📅 Never miss important renewal dates.<br>
+          🔔 Get timely alerts for all your documents.<br>
+          🗂️ Stay organized and stress-free <br></p>
+        <div class="social-icons">
+          <a href="#"><img src="twitter.png" alt="Twitter"></a>
+          <a href="#"><img src="instagram.png" alt="Instagram"></a>
+          <a href="#"><img src="facebook.png" alt="Facebook"></a>
+          <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Success Stories</a></li>
+          <li><a href="#">API Access</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Status</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Partners</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 ExpiryNotifier. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </footer>
+    <script src="script.js"></script>
+</body>
+</html>

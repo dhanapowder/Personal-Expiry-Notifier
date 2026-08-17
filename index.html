@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>ExpiryNotifier</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Expiry<span>Notifier</span></div>
+      <nav>
+        <ul>
+          <li><a href="Dashboard.html">Features</a></li>
+          <li><a href="How it works.html">How it works</a></li>
+          <li><a href="Testimonials.html">Testimonials</a></li>
+          <li><a href="Pricing.html">Pricing</a></li>
+        </ul>
+      </nav>
+      <div class="buttons">
+        <a href="login.html" style="text-decoration: none"
+          ><button class="login">Log in</button></a
+        >
+        <a href="SignUp.html" style="text-decoration: none"
+          ><button class="SignUp">Sign Up</button></a
+        >
+      </div>
+      <button class="theme-toggle" id="darkmodeToggle">
+        <i class="fas fa-sun"></i> <span id="themeText">Light</span> /
+        <i class="fas fa-moon"></i>
+      </button>
+      <div class="right-nav">
+        <div class="lang-selector">
+          <i class="fas fa-globe"></i>
+          <select id="languageSwitcher">
+            <option value="en">🇬🇧 English</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="hi">🇮🇳 हिंदी</option>
+            <option value="fr">🇫🇷 Français</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <h1 data-i18n="hero_title">
+            Personal Document <br />
+            Expiry <span> Notifier</span>
+          </h1>
+          <p data-i18n="hero_desc">
+            Application that keeps track of personal documents and
+            <br />
+            notifies the user when a document is nearing its
+            expiration date.
+          </p>
+          <div class="cta-buttons">
+            <button class="download">Download App</button>
+            <button class="learn-more">Learn More</button>
+          </div>
+
+          <!-- 🎤 MICROPHONE + VOICE COMMAND FEATURE -->
+          <div class="mic-assistant">
+            <div class="mic-info">
+              <h3>
+                <i class="fas fa-microphone-alt">🎤</i>
+                <span data-i18n="voice_assistant"
+                  >Voice Assistant</span
+                >
+                <span style="font-size: 0.8rem">🎙️</span>
+              </h3>
+              <p data-i18n="mic_description">
+                Tap the mic and speak: "Show reminders", "Go to
+                pricing", "Tell me about Premium", or "Switch to dark
+                mode".
+              </p>
+              <div
+                class="mic-status"
+                id="micStatusMsg"
+                data-i18n="mic_ready"
+              >
+                ✅ Ready — click microphone and speak
+              </div>
+              <div class="recognized-text" id="voiceCommandOutput">
+                💬
+                <span data-i18n="command_placeholder"
+                  >Your voice command will appear here...</span
+                >
+              </div>
+            </div>
+            <button class="mic-btn" id="microphoneBtn">
+              <i class="fas fa-microphone">🎤</i>
+            </button>
+          </div>
+
+          <div class="rating">
+            <div class="circles">
+              <span class="circle"></span>
+              <span class="circle"></span>
+              <span class="circle"></span>
+              <span class="circle"></span>
+            </div>
+            <div class="stars">
+              <p style="color: gray">
+                <strong>5,000+</strong> active users
+              </p>
+              <p style="color: grey">⭐⭐⭐⭐⭐4.9</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="./667ae44cfdaffed3785e1cf9_Hero images (6).webp"
+            alt="Documents scanning app"
+          />
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Segoe UI', sans-serif; */
+}
+@font-face {
+  font-family: 'EN';
+  src: url('./gabriola/gabriola\ Font\ Download.ttf');
+}
+
+body {
+  background:  #F1E7E2;
+  color: #222;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #E5D7C3;
+  box-shadow: 0 2px 5px black;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6F5B56;
+}
+
+.logo span {
+  color: #A4917D;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+  
+.login-btn {
+  background: white;
+  color: #A4917D;
+  border: 2px solid #A4917D;
+}
+
+.get-started {
+  background-color: #6F5B56;
+  color: white;
+  border: none;
+  border-radius: 0;
+}
+
+ .how-it-works {
+  text-align: center;
+  padding: 60px 20px;
+ }
+
+.how-it-works h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.how-it-works p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.how-it-works-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.how-image img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px #111;
+}
+
+.how-text {
+  max-width: 500px;
+  text-align: left;
+}
+
+.how-text h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.how-text h2 span {
+  color: #6F5B56;
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.how-text p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.store-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.store-buttons button {
+  padding: 10px 20px;
+  border: none;
+  background: black;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.store-buttons button:hover {
+  background: #333;
+}
+

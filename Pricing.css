@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Segoe UI', sans-serif; */
+}
+@font-face {
+  font-family: 'EN';
+  src: url('./gabriola/gabriola\ Font\ Download.ttf');
+}
+
+body {
+  background:  #F1E7E2;
+  color: #222;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #E5D7C3;
+  box-shadow: 0 2px 5px black;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6F5B56;
+}
+
+.logo span {
+  color: #A4917D;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  padding: 8px 10px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+  
+.login-btn {
+  background: white;
+  color: #A4917D;
+  border: 2px solid #A4917D;
+}
+
+.get-started {
+  background-color: #6F5B56;
+  color: white;
+  border: none;
+  border-radius: 0;
+}
+
+/* zero Section */
+.zero {
+  background: linear-gradient(to right, #A4917D, #6F5B56);
+  margin: 50px auto;
+  padding: 60px 30px;
+  text-align: center;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 800px;
+  color: white;
+  box-shadow: 0 5px 15px black;
+}
+
+.zero h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.zero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.download button {
+  background: white;
+  color: #A4917D;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.download button:hover {
+  background: #dfe6e9;
+}
+
+.small-text {
+  font-size: 14px;
+  color: #dfe6e9;
+}
+
+/* Pricing Section */
+.pricing-section {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pricing-card {
+  background: white;
+  border: 2px solid #dfe6e9;
+  border-radius: 15px;
+  padding: 30px 20px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 10px black;
+  position: relative;
+}
+
+.pricing-card.popular {
+  border-color: #A4917D;
+}
+
+.popular-badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #A4917D;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+h3 {
+  color: #A4917D;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 10px 0;
+  color: #2d3436;
+}
+
+p {
+  color: #636e72;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  transition: background 0.3s, color 0.3s;
+}
+
+.outline-btn {
+  background: white;
+  color: #A4917D;
+  border: 2px solid #A4917D;
+}
+
+.outline-btn:hover {
+  background: #dfe6e9;
+}
+
+.filled-btn {
+  background: #A4917D;
+  color: white;
+  border: none;
+}
+
+.filled-btn:hover {
+  background: #6F5B56;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  padding: 50px 20px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #21262d;
+}
+
+.footer-col {
+  flex: 1 1 200px;
+  margin: 20px;
+}
+
+.footer-col h3, .footer-col h4 {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.footer-col p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li {
+  margin: 10px 0;
+}
+
+.footer-col ul li a {
+  color: #c9d1d9;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-col ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Social Icons */
+.social-icons a {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.footer-bottom .footer-links {
+  margin-top: 10px;
+}
+
+.footer-bottom .footer-links a {
+  color: #58a6ff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-bottom .footer-links a:hover {
+  text-decoration: underline;
+}

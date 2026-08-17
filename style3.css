@@ -1,0 +1,9 @@
+label{
+    font-weight: 700;
+}
+.Sign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
